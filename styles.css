@@ -127,3 +127,17 @@ header {
         }
     }
 }
+.hero {
+    display:flex;
+    .hero-blue {
+        flex:1;
+    }
+
+    .hero-yellow {
+        flex:1;
+        background-color: var(--teracotts-400);
+        border-radius:30px;
+        padding:0px 30px;
+        display:flex;
+    }
+}
