@@ -402,13 +402,18 @@ h3 {
             flex-direction: column;
             gap:30px;
             height: auto;
+
+        }
+
+            
+        }
         }
         .bento-item {
             padding: 30px;
-            background-color: var(--terracotta-800);
+            background-color: var(--base-100);
             border-radius: 15px;
             @media (max-width:768px){
-                height:240px;    
+                height:240px;
             }
             &:nth-child(1) {
                 grid-column: span 2;
@@ -459,4 +464,3 @@ h3 {
                 }
             }
         }
-    }
