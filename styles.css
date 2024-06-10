@@ -390,7 +390,9 @@ h3 {
 .bento {
     .bento-grid {
         display: grid;
-        gap: 30px;
+        grid-gap: 30px;
+        grid-template-columns: repeat(5,1fr);
+        grid-template-rows: repeat(4,1fr);
         }
         .bento-item {
             padding: 30px;
