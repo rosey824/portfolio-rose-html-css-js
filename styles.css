@@ -389,7 +389,8 @@ h3 {
 }
 .bento {
     .bento-grid {
-      
+        display: grid;
+        gap: 30px;
         }
         .bento-item {
             padding: 30px;
