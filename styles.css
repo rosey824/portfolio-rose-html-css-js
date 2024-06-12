@@ -24,7 +24,6 @@ body {
     font-optical-sizing: auto;
     font-style: normal;
     font-size: 20px;
-    padding-bottom: 1000px;
 }
 
 a {
@@ -477,4 +476,8 @@ h3 {
             }
         }
     }
+}
+.footer {
+    color: var(--base-800);
+    text-align: center;
 }
