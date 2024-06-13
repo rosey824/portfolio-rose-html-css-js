@@ -304,6 +304,7 @@ h3 {
                 gap: 10px;
                 margin-right: 100px;
                 margin-bottom: 20px;
+                font-size: 21px;
                 li {
                    display: inline-block;
                    background-color: var(--base-100);
@@ -318,6 +319,7 @@ h3 {
             flex: 1;
             p {
                 margin-bottom: 20px;
+                font-size: 21px;
             }
 
         }
