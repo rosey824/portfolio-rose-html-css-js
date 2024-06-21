@@ -429,6 +429,24 @@ h3 {
             @media (max-width:768px){
                 height:240px;
             }
+            figcaption {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                background-color: rgba(0,0,0,0.5);
+                color: var(--base-100);
+                text-align: center;
+                padding: 10px;
+                opacity: 0;
+                visibility: hidden;
+                transition: ease 0.3s all;
+            }
+            &:hover {
+                figcaption {
+                    opacity: 1;
+                    visibility: visible
+                }
             &:nth-child(1) {
                 grid-column: span 2;
                 grid-row: span 2;
