@@ -54,10 +54,10 @@ header {
             align-items: center;
             justify-content: center;
             font-size:32px;
-            background-color: var(--base-800);
+            background-color: var(--base-100);
             color: var(--base-100);
-            height:64px;
-            width:64px;
+            height:80px;
+            width:80px;
             margin-right:20px;
             border-radius:50%;
 
@@ -235,7 +235,7 @@ h1 {
         }
     }
 .logos {
-    background-color: lightgrey;
+    background-color: var(--base-100);
     border-radius: 30px;
     padding: 30px 0px;
     @media (max-width:1024px){
