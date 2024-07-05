@@ -251,7 +251,7 @@ h1 {
             position: absolute;
             white-space: nowrap;
             will-change: transform;
-            animation: marquee 40s linear infinite;
+            animation: marquee 35s linear infinite;
             display: flex;
             gap: 10px;
         }
@@ -262,7 +262,7 @@ h1 {
         transform: translateX(0);
     }
     100% {
-        transform: translateX(-50%);
+        transform: translateX(-85%);
     }
 }
 
